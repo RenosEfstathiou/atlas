@@ -261,7 +261,7 @@ a {
 }
 
 .about {
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .about-container {
@@ -278,50 +278,6 @@ a {
     border-bottom: 2px solid black;
 }
 
-
-
-.image-slider {
-    height: 100vh;
-    
-
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-   
-}
-
-
-.prevBtn{
-    position: absolute;
-    left: 3%;
-    margin-top:  22%;
-}
-
-.nextBtn{
-    position: absolute;
-    right: 3%;
-    margin-top: 22%;
-    
-}
-
-@media all and (max-width: 768px) {
-
-
-    .prevBtn{
-       
-        margin-top:  50%;
-    }
-    
-    .nextBtn{
-       
-        margin-top: 50%;
-        
-    }
-
-}
-
-
 .contact {
     background-color: black;
     color: white;
@@ -333,7 +289,7 @@ a {
     grid-template-rows: 20% 1 1fr;
     place-items: center;
     text-align: center;
-    margin: 0% 2%;
+    margin: 2% 2%;
 }
 
 .cont-title {
@@ -358,14 +314,14 @@ a {
 
 
 .coh3 {
-grid-row:2;
-
+    grid-row:2;
 }
 
 .map {
     grid-row: 3;
     border-radius: 20px;
 }
+
 .cont-2 a {
     color: white;
     font-size: large;
@@ -374,11 +330,9 @@ grid-row:2;
 .co-info {
     display: flex;
 }
-   
-
 
 .cont-3 {
-   text-align: center;
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
@@ -398,23 +352,3 @@ grid-row:2;
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-

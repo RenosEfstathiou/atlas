@@ -78,34 +78,3 @@ sliders.forEach(slider => {
     appearOnScroll.observe(slider);
 });
 // observer end
-
-const imageSlider = document.querySelector('.image-slider');
-const sliderImage = ['/img/slider1.jpg','/img/slider2.jpg','/img/slider3.jpg','/img/slider4.jpg'];
-var i =1;
-loopSlider();
-function loopSlider(){
-   if( i===1){
-       imageSlider.style.backgroundImage= `url(${sliderImage[0]})`;
-   }else if (i===2){
-        imageSlider.style.backgroundImage= `url(${sliderImage[1]})`;
-   }else if (i===3) {
-        imageSlider.style.backgroundImage= `url(${sliderImage[2]})`;
-   }else {
-        imageSlider.style.backgroundImage= `url(${sliderImage[3]})`;
-   }
-
-}
-
-function iloop() {
-    if(i <=4) {
-        i++;
-    }else {
-        i=1;
-    }
-    loopSlider();
-}
-
-setInterval(iloop,8000);
-
-
-
